@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Riley Blaze McKinlay Portfolio</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="../../css/footer.css" rel="stylesheet">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html">Blaze's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="../../pages/about.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="../../pages/skills.html">Skills</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Projects
+                </a>
+                <ul class="dropdown-menu" style="width: 380px">
+				  <div class="d-flex flex-row">
+					<div class="d-flex flex-column">
+						<li><a class="dropdown-item" href="./games.html"><strong>Game Projects</strong></a></li>
+						<div class="d-flex flex-column" style="flex-wrap: wrap; max-height: 300px;">
+						<li><a class="dropdown-item" href="../pages/package.php?id='. $row['package_id'] .'"></a></li>
+						<li><a class="dropdown-item" href="./games.html">See All...</a></li>
+						</div>
+					</div>
+					<div class="d-flex flex-column ms-2">
+						<li><a class="dropdown-item" href="../projects/projects.html"><strong>Normal Projects</strong></a></li>
+						<div class="d-flex flex-column border-start" style="flex-wrap: wrap; max-height: 300px;">
+                        <li><a class="dropdown-item" href="../pages/seed.php?id='. $row['seed_id'] .'"></a></li>
+						<li><a class="dropdown-item" href="../projects/projects.html">See All...</a></li>
+                    </div>
+					</div>
+				  </div>
+				</ul>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+</head>
+<body>
+    <h1>Games</h1>
+    <h3>20 Games Challenge</h3>
+    <div id="carousel20Games" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel20Games" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel20Games" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel20Games" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel20Games" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner bg-dark-subtle" style="min-height: 550px">
+            <div class="carousel-item active">
+            <a href="Pong/HTML/Pong.html"><img src="../../media/Pong.png" class="d-block mx-auto w-25 my-5" alt="..."></a>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Pong</h5>
+                <p>One of the first games made on computers. 1/20</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <a href="Flappy Bird/HTML/Flappy.html"><img src="../../media/Flappy.png" class="d-block mx-auto w-25" alt="..."></a>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Flappy Bird</h5>
+                <p>Click or press space to flap upwards, avoid the pipes. 2/20</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <a href="Breakout/HTML/Breakout.html"><img src="../../media/Breakout.png" class="d-block mx-auto w-25 my-5" alt="..."></a>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Breakout</h5>
+                <p>Move the paddle from side to side to break all the bricks. 3/20</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <a href="Jetpack/HTML/Jetpack.html"><img src="../../media/Jetpack.png" class="d-block mx-auto w-25 my-5" alt="..."></a>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Jetpack Joyride</h5>
+                <p>Click or press space to fly upwards, avoid any obstacles. 4/20</p>
+            </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel20Games" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel20Games" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <h3>Other Games</h3>
+    <div id="carouselOtherGames" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselOtherGames" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        </div>
+        <div class="carousel-inner bg-dark-subtle" style="min-height: 550px">
+            <div class="carousel-item active">
+            <a href="Seedle/index.html"><img src="../../media/Seedle.PNG" class="d-block mx-auto w-25 my-5" alt="..."></a>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Seedle</h5>
+                <p>Wordle inspired game where you have to determine which crop from Stardew Valley has been randomly chosen.</p>
+            </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselOtherGames" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselOtherGames" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</body>
+<footer>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Blaze</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://davistech.edu/programs/software-development/">Education</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+</footer>

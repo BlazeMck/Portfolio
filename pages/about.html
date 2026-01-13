@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Riley Blaze McKinlay Portfolio</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="../css/footer.css" rel="stylesheet">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Blaze's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./about.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./skills.html">Skills</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Projects
+                </a>
+                <ul class="dropdown-menu" style="width: 380px">
+				  <div class="d-flex flex-row">
+					<div class="d-flex flex-column">
+						<li><a class="dropdown-item" href="../showoff/games/games.html"><strong>Game Projects</strong></a></li>
+						<div class="d-flex flex-column" style="flex-wrap: wrap; max-height: 300px;">
+						<li><a class="dropdown-item" href="../pages/package.php?id='. $row['package_id'] .'"></a></li>
+						<li><a class="dropdown-item" href="./games.html">See All...</a></li>
+						</div>
+					</div>
+					<div class="d-flex flex-column ms-2">
+						<li><a class="dropdown-item" href="../showoff/projects/projects.html"><strong>Normal Projects</strong></a></li>
+						<div class="d-flex flex-column border-start" style="flex-wrap: wrap; max-height: 300px;">
+                        <li><a class="dropdown-item" href="../pages/seed.php?id='. $row['seed_id'] .'"></a></li>
+						<li><a class="dropdown-item" href="../showoff/projects/projects.html">See All...</a></li>
+                    </div>
+					</div>
+				  </div>
+				</ul>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+</head>
+<body>
+    <h1>Riley Blaze McKinlay</h1>
+    <h3>Davis Technical College Graduate</h3>
+    <h4>Early Life - Motivation</h4>
+    <p>
+       Born on a Navy Base in Jacksonville, Florida to Dugan and Amber McKinlay in June of 2003 I never was one to sit in one place, and neither was my family.
+       Almost every year we moved to a new apartment, a new city, and occasionally a new state. Eventually, after my father remarried, we had settled down in North Salt Lake, Utah.
+       I attended Woods Cross High School for a total of 3 years, as the Davis School District didn't have a freshman year. It was here that I discovered a knack for computers,
+       I would ask for one very year for my birthday and, eventually, I got one. An old office computer still running Windows XP, certainly not the most powerful option on the market,
+       but it was mine. My uncle suggested that I 'Frankenstein' it into something more powerful, and I took him up on that. I learned how components connected, how to determine compatibility,
+       the differences between the major companies, such as AMD and Intel. I had gained a thirst for knowledge when it came to computers early on, and I took almost any chance I could to learn more.
+    </p>
+    <h4>High School - Woods Cross High School</h4>
+    <p>
+       During my Junior year I attended a computer programming course, and was immediately enamoured. Mr. Snelson had opted to teach us Java, I learned the basics of development, how different 
+       data types are stored, conditionals, and loops. I had wished to do more than just the basics, but unfortunately the continuation of that course didn't receive enough sign-ups, and the class 
+       was dropped before I received the chance. After that first semester I knew that I wanted to be a software engineer and I wasn't going to let myself be held back by the lack of this course at Woods Cross High.
+       I enrolled into three courses simultaneously my senior year that would allow me to explore other aspects of software development. Web Development, Game Development Fundamentals, and a joint enrollment with 
+       Davis Technical College (DTC). The most notable of which was my joint enrollment with DTC, although I did learn plenty from my time in both Web Development and Game Development Fundamentals,
+       graduating with Straight A's in every course pertaining to software development.
+    </p>
+    <h4>Information Technology - Davis Technical College</h4>
+    <p>
+        My joint enrollment in DTC was in their Information Technology program, where I learned the process of troubleshooting and fixing problems on computers within a business setting.
+        The classes taught at the DTC typically would include extensive labs and hands-on training for problems that would be encountered while working in the field. I learned linux, networking, servers,
+        troubleshooting, ticket systems, virtual machines, printers, and so much more. By the end of the course I participated in many exams, such as Microsoft Networking, CompTIA ITF, and CompTIA A+,
+        passing all of them and gaining myself certifications in those fields. Although a fantastic learning experience, 
+        Information Technology wasn't my ultimate goal, it was a stepping stone and a requirement for the Software Development program offered at DTC. After a small break and coming back to complete the Information Technology 
+        program I soon set my sights on completing the Software Development program within the year.<br>
+        <button data-bs-toggle="collapse" data-bs-target="#collapseInformation">Here is a full list of the courses I completed in the Information Technology program.</button>
+        <div class="collapse" id="collapseInformation">
+            <div class="card card-body">
+                <ul>
+                    <li>ITEC 1003 - Introduction to Information Technology</li>
+                    <li>ITEC 1018 - Linux Essentials</li>
+                    <li>ITEC 1025 - Microsoft Network Fundamentals</li>
+                    <li>ITEC 3000 - Math for Information Technology</li>
+                    <li>WKSK 1500 - Job Seeking Skills</li>
+                    <li>SDEV 1022 - HTML/CSS Basics</li>
+                    <li>SDEV 1041 - SQL Fundamentals</li>
+                    <li>SDEV 1032 - Programming Basics</li>
+                    <li>ITEC 1357 - CompTIA A+ Essentials</li>
+                    <li>ITEC 1457 - CompTIA A+ Practical Application</li>
+                </ul>
+            </div>
+        </div>
+    </p>
+    <h4>Software Development - Davis Technical College</h4>
+    <p>
+        I enrolled in the Software Development program in January of 2025 with one goal in mind, complete the program within a year, ahead of the typical expected schedule, and find my career within Software Development
+        with the skills that DTC would ingrain within me. This goal was bolstered by the fact that I had been married the October prior, to one Reagan McKinlay, and wanted to give us a wonderful married life.
+        During my time at the DTC I would create a myriad of different programs and solutions for theoretical problems thrown my way. I learned how to code in many different languages, such as HTML, CSS, PHP,
+        JavaScript, React Native, MySQL, and C#. I also learned skills that would translate to multiple different programming disciplines, such as version control via Git, CI/CD pipelines in Azure, Unit Testing, and the use of 
+        relational databases in many aspects. Ultimately the largest takeaway I have from the Software Development program is the ability to learn quickly. Although I've never worked with programming languages such as Python
+        or Ruby I am positive that I could learn them quickly. One of my largest achievements walking away from the program is my speed, completing it 3 months ahead of schedule. But that isn't the only thing I'm proud of.
+        During my time at Davis Technical College generative AI tools such as Chat-GPT, Gemini, Claude, and CoPilot were starting to really take off, and people started to incorporate those tools into their programming. However,
+        there is always too much of a good thing and those generative AI tools gave way to a new kind of programming, vibe-coding. To clear any air, I am rather against leaning on AI generative tools so heavily, I attempted using
+        them on occasion, but would find that they gave me mixed messages, incorrect logic, or downright awful code more often than not. I am happy to say that the knowledge I take away from DTC's Software Development program is my own,
+        and not the product of me using AI tools to do my work for me. And with my own skills and knowledge I graduated with a 3.93 GPA. Any code showcased within this e-portfolio is mine and only mine.<br>
+        <button data-bs-toggle="collapse" data-bs-target="#collapseSoftware">Here is a full list of the courses I completed in the Software Development program.</button>
+        <div class="collapse" id="collapseSoftware">
+            <div class="card card-body">
+                <ul>
+                    <li>SDEV 2110 - JavaScript Programming I</li>
+                    <li>SDEV 1090 - Version Control Fundamentals</li>
+                    <li>SDEV 2410 - C# Programming I</li>
+                    <li>SDEV 1060 - Unit Testing</li>
+                    <li>SDEV 2420 - C# Programming II</li>
+                    <li>SDEV 1040 - Database Development Fundamentals</li>
+                    <li>TESD 1050 - Job Seeking Skills</li>
+                    <li>TESD 1700 - Server-side Web Development</li>
+                    <li>TESD 1640 - Mobile Development</li>
+                    <li>SDEV 1070 - Introduction to DevOps</li>
+                    <li>TESD 2840 - Capstone Project</li>
+                </ul>
+            </div>
+        </div>
+    </p>
+</body>
+<footer>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Blaze</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://davistech.edu/programs/software-development/">Education</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+</footer>

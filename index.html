@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Riley Blaze McKinlay Portfolio</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="./css/footer.css" rel="stylesheet">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Blaze's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./pages/about.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./pages/skills.html">Skills</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Projects
+                </a>
+                <ul class="dropdown-menu" style="width: 380px">
+				  <div class="d-flex flex-row">
+					<div class="d-flex flex-column">
+						<li><a class="dropdown-item" href="./showoff/games/games.html"><strong>Game Projects</strong></a></li>
+						<div class="d-flex flex-column" style="flex-wrap: wrap; max-height: 300px;">
+						<li><a class="dropdown-item" href="../pages/package.php?id='. $row['package_id'] .'"></a></li>
+						<li><a class="dropdown-item" href="./showoff/games/games.html">See All...</a></li>
+						</div>
+					</div>
+					<div class="d-flex flex-column ms-2">
+						<li><a class="dropdown-item" href="./showoff/projects.html"><strong>Normal Projects</strong></a></li>
+						<div class="d-flex flex-column border-start" style="flex-wrap: wrap; max-height: 300px;">
+                        <li><a class="dropdown-item" href="../pages/seed.php?id='. $row['seed_id'] .'"></a></li>
+						<li><a class="dropdown-item" href="./showoff/projects.html">See All...</a></li>
+                    </div>
+					</div>
+				  </div>
+				</ul>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+</head>
+<body>
+    <h1>Riley Blaze McKinlay</h1>
+    <h2>Software Developer</h2>
+    <a href="./showoff/projects/projects.html"><button>Explore Projects</button></a>
+    <a href="./showoff/games/games.html"><button>Explore Games</button></a>
+</body>
+<footer>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Blaze</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://davistech.edu/programs/software-development/">Education</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+</footer>

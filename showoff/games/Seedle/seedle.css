@@ -1,0 +1,133 @@
+html{
+    background-image:url("imgs/map.jpeg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+}
+.autocomplete {
+    position: relative;
+    display: inline-block;
+}
+.autocomplete-items{
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index:99;
+    top:100%;
+    left: 0;
+    right: 0;
+}
+#rules {
+    margin:3%;
+    padding:15px;
+    text-align:center;
+    color:rgb(209, 175, 80);
+    background-color:rgba(71, 49, 49, 0.836);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#game{
+    text-align: center;
+    background-color: rgba(71, 49, 49, 0.836);
+    margin-left:5%;
+    margin-right:5%;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+img {
+    margin:1%;
+    margin-top:0px;
+    scale: 125%;
+}
+.feedback{
+    display: inline-block;
+    padding: 10px;
+    color:rgb(209, 175, 80);
+}
+.hidden{
+    display:none;
+}
+span{
+    color: rgb(233, 205, 199);
+    font-weight: bolder;  
+    display: inline;    
+}
+
+.season{
+    position:relative;
+    right:7.35%;
+    
+}
+.cost{
+    position:relative;
+    right:5.65%;
+}
+.value{
+    position:relative;
+    right:3.5%;
+}
+.time{
+    position:relative;
+    right:1.65%;
+}
+.energy{
+    position:relative;
+}
+.health{
+    position:relative;
+    left:1%;
+}
+.squish {
+    scale:50%;
+    margin-bottom:5px;
+}
+.squish.season{
+    right:10%;
+}
+.squish.cost{
+    right:9%;
+}
+.squish.value{
+    right:7%;
+}
+.squish.time{
+    right:5.5%;
+}
+.squish.energy{
+    right:5%;
+}
+.squish.health{
+    left:auto;
+    right:5%;
+}
+/* #season .desktop{
+    position: absolute;
+    left: 28%;
+}
+#cost .desktop{
+    position: absolute;
+    left: 36%;
+}
+#value .desktop{
+    position: absolute;
+    left: 44%;
+}
+#time .desktop{
+    position: absolute;
+    left: 52%;
+}
+#energy .desktop{
+    position: absolute;
+    left: 60%;
+    text-wrap: wrap;
+    max-width: 80px;
+}
+#health .desktop{
+    position: absolute;
+    left: 68%;
+    max-width: 80px;
+}
+#thumbnail .desktop{
+    position: absolute;
+    left: 76%;
+} */
