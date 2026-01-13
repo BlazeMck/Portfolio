@@ -7,6 +7,7 @@
 	<title>Riley Blaze McKinlay Portfolio</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="../css/styles.css" rel="stylesheet">
     <link href="../css/footer.css" rel="stylesheet">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -34,14 +35,18 @@
 					<div class="d-flex flex-column">
 						<li><a class="dropdown-item" href="../showoff/games/games.html"><strong>Game Projects</strong></a></li>
 						<div class="d-flex flex-column" style="flex-wrap: wrap; max-height: 300px;">
-						<li><a class="dropdown-item" href="../pages/package.php?id='. $row['package_id'] .'"></a></li>
-						<li><a class="dropdown-item" href="./games.html">See All...</a></li>
+						<li><a class="dropdown-item" href="../showoff/games/Seedle/index.html">Seedle</a></li>
+                        <li><a class="dropdown-item" href="../showoff/games/Pong/HTML/Pong.html">Pong</a></li>
+                        <li><a class="dropdown-item" href="../showoff/games/Flappy Bird/HTML/Flappy.html">Flappy Bird</a></li>
+                        <li><a class="dropdown-item" href="../showoff/games/Breakout/HTML/Breakout.html">Breakout</a></li>
+                        <li><a class="dropdown-item" href="../showoff/games/Jetpack/HTML/Jetpack.html">Jetpack Joyride</a></li>
+						<li><a class="dropdown-item" href="../showoff/games/games.html">See All...</a></li>
 						</div>
 					</div>
 					<div class="d-flex flex-column ms-2">
 						<li><a class="dropdown-item" href="../showoff/projects/projects.html"><strong>Normal Projects</strong></a></li>
 						<div class="d-flex flex-column border-start" style="flex-wrap: wrap; max-height: 300px;">
-                        <li><a class="dropdown-item" href="../pages/seed.php?id='. $row['seed_id'] .'"></a></li>
+                        <li><a class="dropdown-item disabled" href="http://edensseedreserve.servehttp.com/">Eden's Seed Reserve</a></li>
 						<li><a class="dropdown-item" href="../showoff/projects/projects.html">See All...</a></li>
                     </div>
 					</div>
@@ -84,7 +89,7 @@
         program I soon set my sights on completing the Software Development program within the year.<br>
         <button data-bs-toggle="collapse" data-bs-target="#collapseInformation">Here is a full list of the courses I completed in the Information Technology program.</button>
         <div class="collapse" id="collapseInformation">
-            <div class="card card-body">
+            <div class="card card-body" style="color: black">
                 <ul>
                     <li>ITEC 1003 - Introduction to Information Technology</li>
                     <li>ITEC 1018 - Linux Essentials</li>
@@ -114,7 +119,7 @@
         and not the product of me using AI tools to do my work for me. And with my own skills and knowledge I graduated with a 3.93 GPA. Any code showcased within this e-portfolio is mine and only mine.<br>
         <button data-bs-toggle="collapse" data-bs-target="#collapseSoftware">Here is a full list of the courses I completed in the Software Development program.</button>
         <div class="collapse" id="collapseSoftware">
-            <div class="card card-body">
+            <div class="card card-body" style="color: black">
                 <ul>
                     <li>SDEV 2110 - JavaScript Programming I</li>
                     <li>SDEV 1090 - Version Control Fundamentals</li>

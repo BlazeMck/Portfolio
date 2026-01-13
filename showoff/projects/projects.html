@@ -7,6 +7,7 @@
 	<title>Riley Blaze McKinlay Portfolio</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="../../css/styles.css" rel="stylesheet">
     <link href="../../css/footer.css" rel="stylesheet">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -34,15 +35,19 @@
 					<div class="d-flex flex-column">
 						<li><a class="dropdown-item" href="../games/games.html"><strong>Game Projects</strong></a></li>
 						<div class="d-flex flex-column" style="flex-wrap: wrap; max-height: 300px;">
-						<li><a class="dropdown-item" href="../pages/package.php?id='. $row['package_id'] .'"></a></li>
+						<li><a class="dropdown-item" href="../games/Seedle/index.html">Seedle</a></li>
+                        <li><a class="dropdown-item" href="../games/Pong/HTML/Pong.html">Pong</a></li>
+                        <li><a class="dropdown-item" href="../games/Flappy Bird/HTML/Flappy.html">Flappy Bird</a></li>
+                        <li><a class="dropdown-item" href="../games/Breakout/HTML/Breakout.html">Breakout</a></li>
+                        <li><a class="dropdown-item" href="../games/Jetpack/HTML/Jetpack.html">Jetpack Joyride</a></li>
 						<li><a class="dropdown-item" href="../games/games.html">See All...</a></li>
 						</div>
 					</div>
 					<div class="d-flex flex-column ms-2">
-						<li><a class="dropdown-item" href="./projects.html"><strong>Normal Projects</strong></a></li>
+						<li><a class="dropdown-item" href="#"><strong>Normal Projects</strong></a></li>
 						<div class="d-flex flex-column border-start" style="flex-wrap: wrap; max-height: 300px;">
-                        <li><a class="dropdown-item" href="../pages/seed.php?id='. $row['seed_id'] .'"></a></li>
-						<li><a class="dropdown-item" href="./projects.html">See All...</a></li>
+                        <li><a class="dropdown-item disabled" href="http://edensseedreserve.servehttp.com/">Eden's Seed Reserve</a></li>
+						<li><a class="dropdown-item" href="#">See All...</a></li>
                     </div>
 					</div>
 				  </div>
@@ -69,10 +74,10 @@
             <button type="button" data-bs-target="#carouselEden" data-bs-slide-to="8" aria-label="Slide 9"></button>
             <button type="button" data-bs-target="#carouselEden" data-bs-slide-to="9" aria-label="Slide 10"></button>
         </div>
-        <div class="carousel-inner bg-dark-subtle" style="min-height: 550px">
+        <div class="carousel-inner bg-dark-subtle" style="min-height: 1025px">
             <div class="carousel-item active">
             <img src="../../media/ESR/index.png" class="d-block mx-auto my-5" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block bg-dark">
                 <h5>Home Page</h5>
                 <p>An introduction to Eden's Seed Reserve and what the business offers.</p>
                 <p>This webpage is currently inaccessible to the public. Will be deployed at clients' readiness.</p>
@@ -80,60 +85,60 @@
             </div>
             <div class="carousel-item">
             <img src="../../media/ESR/packages.PNG" class="d-block mx-auto my-5" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block bg-dark">
                 <h5>Packages Page</h5>
                 <p>The main product page for the business.</p>
             </div>
             </div>
             <div class="carousel-item">
             <img src="../../media/ESR/seeds.PNG" class="d-block mx-auto my-5" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block bg-dark">
                 <h5>Seeds Page</h5>
                 <p>The main detail page for the business' products, seed details can be found on individual pages.</p>
             </div>
             </div>
             <div class="carousel-item">
             <img src="../../media/ESR/signup.PNG" class="d-block mx-auto my-5" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block bg-dark">
                 <h5>Signup Page</h5>
             </div>
             </div>
             <div class="carousel-item">
             <img src="../../media/ESR/login.PNG" class="d-block mx-auto my-5" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block bg-dark">
                 <h5>Login Page</h5>
             </div>
             </div>
             <div class="carousel-item">
             <img src="../../media/ESR/orders.PNG" class="d-block mx-auto my-5" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block bg-dark">
                 <h5>Orders Page</h5>
             </div>
             </div>
             <div class="carousel-item">
             <img src="../../media/ESR/tips.PNG" class="d-block mx-auto my-5" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block bg-dark my-5">
                 <h5>Tips & Tricks Page</h5>
                 <p>A page that gives general gardening tips.</p>
             </div>
             </div>
             <div class="carousel-item">
             <img src="../../media/ESR/adminpackages.PNG" class="d-block mx-auto my-5" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block bg-dark my-5">
                 <h5>Admin Packages Page</h5>
                 <p>A page that allows admins to alter the database for packages without needing to know SQL.</p>
             </div>
             </div>
             <div class="carousel-item">
             <img src="../../media/ESR/adminseeds.PNG" class="d-block mx-auto w-25 my-5" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block bg-dark my-5">
                 <h5>Admin Seeds Page</h5>
                 <p>A page that allows admins to alter the database for seeds without needing to know SQL.</p>
             </div>
             </div>
             <div class="carousel-item">
             <img src="../../media/ESR/adminusers.PNG" class="d-block mx-auto w-25 my-5" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block bg-dark">
                 <h5>Admin Users Page</h5>
                 <p>A page that allows admins to alter the database for users without needing to know SQL.</p>
             </div>

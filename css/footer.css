@@ -13,3 +13,15 @@ footer {
     width: 100%;
     height: 40px;
 }
+
+nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 40px;
+}
+#carouselEden .carousel-caption{
+    position: absolute;
+    top: 85%;
+    min-height: fit-content
+}

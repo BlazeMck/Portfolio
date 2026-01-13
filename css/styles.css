@@ -1,0 +1,12 @@
+html {
+    background-color: rgb(247, 231, 208);
+}
+body {
+    background-color: rgba(66, 18, 18, 0.8);
+    color: azure;
+}
+h1, h2, h3 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

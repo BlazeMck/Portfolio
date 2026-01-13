@@ -7,6 +7,7 @@
 	<title>Riley Blaze McKinlay Portfolio</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="./css/styles.css" rel="stylesheet">
     <link href="./css/footer.css" rel="stylesheet">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -34,15 +35,19 @@
 					<div class="d-flex flex-column">
 						<li><a class="dropdown-item" href="./showoff/games/games.html"><strong>Game Projects</strong></a></li>
 						<div class="d-flex flex-column" style="flex-wrap: wrap; max-height: 300px;">
-						<li><a class="dropdown-item" href="../pages/package.php?id='. $row['package_id'] .'"></a></li>
+						<li><a class="dropdown-item" href="./showoff/games/Seedle/index.html">Seedle</a></li>
+                        <li><a class="dropdown-item" href="./showoff/games/Pong/HTML/Pong.html">Pong</a></li>
+                        <li><a class="dropdown-item" href="./showoff/games/Flappy Bird/HTML/Flappy.html">Flappy Bird</a></li>
+                        <li><a class="dropdown-item" href="./showoff/games/Breakout/HTML/Breakout.html">Breakout</a></li>
+                        <li><a class="dropdown-item" href="./showoff/games/Jetpack/HTML/Jetpack.html">Jetpack Joyride</a></li>
 						<li><a class="dropdown-item" href="./showoff/games/games.html">See All...</a></li>
 						</div>
 					</div>
 					<div class="d-flex flex-column ms-2">
-						<li><a class="dropdown-item" href="./showoff/projects.html"><strong>Normal Projects</strong></a></li>
+						<li><a class="dropdown-item" href="./showoff/projects/projects.html"><strong>Normal Projects</strong></a></li>
 						<div class="d-flex flex-column border-start" style="flex-wrap: wrap; max-height: 300px;">
-                        <li><a class="dropdown-item" href="../pages/seed.php?id='. $row['seed_id'] .'"></a></li>
-						<li><a class="dropdown-item" href="./showoff/projects.html">See All...</a></li>
+                        <li><a class="dropdown-item disabled" href="http://edensseedreserve.servehttp.com/">Eden's Seed Reserve</a></li>
+						<li><a class="dropdown-item" href="./showoff/projects/projects.html">See All...</a></li>
                     </div>
 					</div>
 				  </div>
@@ -54,10 +59,12 @@
     </nav>
 </head>
 <body>
-    <h1>Riley Blaze McKinlay</h1>
-    <h2>Software Developer</h2>
-    <a href="./showoff/projects/projects.html"><button>Explore Projects</button></a>
-    <a href="./showoff/games/games.html"><button>Explore Games</button></a>
+    <div class="container py-4" style="text-align: center">
+        <h1>Riley Blaze McKinlay</h1>
+        <h2>Software Developer</h2>
+        <a href="./showoff/projects/projects.html"><button>Explore Projects</button></a>
+        <a href="./showoff/games/games.html"><button>Explore Games</button></a>
+    </div>
 </body>
 <footer>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
